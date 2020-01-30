@@ -1,0 +1,12 @@
+This project was a semester long step-by-step conversion of an Online Transactional Processing (OLTP) Database into an Online Analytical Processing (OLAP) DataWarehouse using SSIS/SSAS and a bit of SSRS to answer business queries on this data.
+
+Within the folder is the final project which was built upon 3 previous assignments which were:
+1) building the initial OLTP DB using MS SQL Server.
+2) extracting, transforming, and loading (ETL) the OLTP DB and creating the OLAP DW using SSIS in Visual Studio. And a little bit of reporting using SSRS.
+3) using SSAS, again in Visual Studio to define the dimensions of the data, create intermediate measurements, Key Performance Indicators (KPI)
+
+The fourth, and final assignment was to do all the previous works for a new DB & DW and to do answer business questions which defined the necessary data, measurements, and KPIs needed. 
+The only given materials was a schema for the OLTP DB, which needed to be created properly for full credit.
+Unneeded data or measurements in the final report were penalized, so the project made my partner and I map out what needed to be taken from the OLTP DB, how we needed to transform the data, and what dimensions and measurements were needed to fulfill the requirements.
+
+I really enjoyed this project, it was very satisfying to see everything run properly. Its the same warm feeling of watching a long program in Java or C# compile without error, and produce the result(s) you expected. 
