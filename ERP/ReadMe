@@ -1,6 +1,8 @@
 For this project I was in a team of 5, each with specific tasks that required accurate data from BI analysis, which I headed.
 Each step of this project simulate 1 full day of sales and distribution, but was 1 real time minute long, with each session being 10 steps.
 
+Represented here is the final presentation, as well as the datasets used throughout the semester to make calculations and recommendations.
+
 There were many errors at first due to how little time we had to make corrections. 
 One issue that could have been easily corrected was in the formula for forecasting data having division by 0 errors, as such we had to use less eliquent means to estimate projected sales figures using inventory_delta as a measurement of volumes moved.
 The issue with using inventory_delta is that incoming inventory would obscure the total outgoing product.
