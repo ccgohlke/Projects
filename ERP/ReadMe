@@ -1,0 +1,11 @@
+For this project I was in a team of 5, each with specific tasks that required accurate data from BI analysis, which I headed.
+Each step of this project simulate 1 full day of sales and distribution, but was 1 real time minute long, with each session being 10 steps.
+
+There were many errors at first due to how little time we had to make corrections. 
+One issue that could have been easily corrected was in the formula for forecasting data having division by 0 errors, as such we had to use less eliquent means to estimate projected sales figures using inventory_delta as a measurement of volumes moved.
+The issue with using inventory_delta is that incoming inventory would obscure the total outgoing product.
+Simple addition of the volumes shipped from the primary warehouse and inventory_delta at regional would adjust for this, but that would take time we didn't really have.
+
+Other BI requirements were on the frequency of product purchases and noticing trends in sales decline or upticks.
+If a product was selling a lot we would slowly raise the price until the uptick began to slow.
+If a product wasn't selling we would discount sharply to promote an uptick in sales.
