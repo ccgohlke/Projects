@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "TaxiServiceBISolution_cg674_th173", "TaxiServiceBISolution_cg674_th173\TaxiServiceBISolution_cg674_th173.dwproj", "{CD659E32-C16C-4CFE-85C0-CEB27D6577F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD659E32-C16C-4CFE-85C0-CEB27D6577F5}.Development|Default.ActiveCfg = Development
+		{CD659E32-C16C-4CFE-85C0-CEB27D6577F5}.Development|Default.Build.0 = Development
+		{CD659E32-C16C-4CFE-85C0-CEB27D6577F5}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5013B464-017C-4C99-9890-879A65DC2E28}
+	EndGlobalSection
+EndGlobal

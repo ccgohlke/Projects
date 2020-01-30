@@ -1,0 +1,547 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c2bcb8e2-0ca1-4df0-b6f7-3e46a15fa0da" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>FactTrips</ID>
+  <Name>FactTrips</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1346" scrolltop="554" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="55" x="8361" y="8202" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCarType" left="2720" top="11944" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCarType" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCity" left="5420" top="0" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCity" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDates" left="8120" top="5549" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDates" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactTrips" left="556" top="5887" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactTrips" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimStreet" left="20" top="212" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimStreet" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2306" top="9582" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="1214" height="2862" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactTrips_DimCarType]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="0" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3120" y="11944" />
+              <point x="3120" y="10937" />
+              <point x="2606" y="10937" />
+              <point x="2606" y="9882" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="1175" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimStreet_DimCity]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="14" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5420" y="1574" />
+              <point x="3020" y="1574" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3256" top="5934" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="5164" height="912" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactTrips_DimDates]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="12" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8120" y="6446" />
+              <point x="6223" y="6446" />
+              <point x="6223" y="6234" />
+              <point x="3556" y="6234" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1121" top="2438" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="1785" height="3749" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_FactTrips_DimStreet]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1520" y="2937" />
+              <point x="1520" y="4243" />
+              <point x="2606" y="4243" />
+              <point x="2606" y="5887" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1346</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>554</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>55</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2c26a46b-cac5-4602-bd1c-768860f11294">
+    <DataSourceViewID>DWTaxiService_cg674_th173</DataSourceViewID>
+  </Source>
+  <Type>Currency</Type>
+  <ErrorConfiguration dwd:design-time-name="38db31d0-c8e2-43f5-bb0c-648bc9df0dd2">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="41c0a423-4afc-431f-9a49-cc30d2e9a159">
+      <ID>TripKey</ID>
+      <Name>TripKey</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d118a664-b991-47e3-906d-d554984d8834">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a6762a73-7217-469d-b28b-1d224f79c9a4">
+            <TableID>dbo_FactTrips</TableID>
+            <ColumnID>TripKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="040e7c5a-5014-49f5-99ad-876963c57b91">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ff9c76ec-717b-4b9c-8051-590607cec9ff">
+          <TableID>dbo_FactTrips</TableID>
+          <ColumnID>TripNumber</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3a50e45b-b14c-456b-be85-05a44ad0bfd2">
+          <AttributeID>TripCharge</AttributeID>
+          <Name>TripCharge</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="85483dd7-0caa-476b-a13c-6bcbe4bc1783">
+          <AttributeID>CarTypeKey</AttributeID>
+          <Name>CarTypeKey</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5bdab0c5-2fd0-4631-94b5-eaea74a09600">
+          <AttributeID>DateKey</AttributeID>
+          <Name>DateKey</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="26613c1a-662c-4bc4-af71-6c448bda60fe">
+          <AttributeID>StreetKey</AttributeID>
+          <Name>StreetKey</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7da00348-230d-4a71-ad55-22c96c2bc035">
+          <AttributeID>Date</AttributeID>
+          <Name>Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="19e56785-727a-4e99-8f46-cd981e47581f">
+          <AttributeID>Month</AttributeID>
+          <Name>Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0c1fcb7a-bc22-4fd8-b151-61dfc0a0a95f">
+          <AttributeID>Year</AttributeID>
+          <Name>Year</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3bbf734b-63af-4676-a094-261272204cde">
+          <AttributeID>City Name</AttributeID>
+          <Name>CityName</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="168ebcba-408a-4363-ab70-dce05c5f3762">
+          <AttributeID>Street Name</AttributeID>
+          <Name>StreetName</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="318023d2-2ba6-4ac1-ac21-0a05c33c44c0">
+          <AttributeID>Trip Number</AttributeID>
+          <Name>TripNumber</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="539ca6bf-fa6c-45cc-967d-21dca1de0ee7">
+          <AttributeID>Car Type</AttributeID>
+          <Name>CarType</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c7c79d01-91bb-45d2-b193-d73f7ce67176">
+      <ID>TripCharge</ID>
+      <Name>TripCharge</Name>
+      <Type>CurrencyName</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6b5a82cf-4341-4a11-96ff-170ea947cc18">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a8cef96c-ee62-46f1-b7f6-4036df302dd3">
+            <TableID>dbo_FactTrips</TableID>
+            <ColumnID>TripCharge</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e2d78c42-e7dc-4f08-b9db-fdaeab6e9ee7">
+      <ID>CarTypeKey</ID>
+      <Name>CarTypeKey</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2fbbf029-a275-4f7f-9b1d-faa9f9248b9a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="36db6b73-204b-4e02-b6cc-89aa7fdc0268">
+            <TableID>dbo_DimCarType</TableID>
+            <ColumnID>CarTypeKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3264dee0-d33c-4d6b-ad83-49bce4b45e84">
+      <ID>DateKey</ID>
+      <Name>DateKey</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9d92d26b-7c67-452f-b4bc-890b08bb0e44">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9d27e59f-3a33-40af-8793-050b2a28ec1b">
+            <TableID>dbo_DimDates</TableID>
+            <ColumnID>DateKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="37c3502b-02a4-4837-83bd-c69576a00fb6">
+      <ID>StreetKey</ID>
+      <Name>StreetKey</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="29de08da-f3d4-459d-9e23-b90a32104a69">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cd34c3ea-720a-4d09-a38f-4887162ad829">
+            <TableID>dbo_DimStreet</TableID>
+            <ColumnID>StreetKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1e004abe-cce9-4ac9-9417-1eeaf9c3361c">
+          <AttributeID>CityKey</AttributeID>
+          <Name>CityKey</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6296d3f7-0eb0-46e8-8bdf-83c97df60656">
+      <ID>CityKey</ID>
+      <Name>CityKey</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="336720ca-5586-46e8-8e76-db90ff219025">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22f58a29-a934-4f7d-b152-fe45c2a5571b">
+            <TableID>dbo_DimCity</TableID>
+            <ColumnID>CityKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eef55f32-981e-4800-840f-1571a2d85b8c">
+      <ID>Date</ID>
+      <Name>Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9d48e011-5645-4628-9416-4c420c45511d">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="13e59aba-359b-43ee-be11-8a07750f052f">
+            <TableID>dbo_DimDates</TableID>
+            <ColumnID>Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c2f562f6-6752-45e4-a4f8-810830cfbc3f">
+      <ID>Month</ID>
+      <Name>Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="09b27f9c-e510-42bb-a573-9f6bfaf61810">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6459b339-f567-4e94-af6f-e80bd1384a71">
+            <TableID>dbo_DimDates</TableID>
+            <ColumnID>Month</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cc415282-1530-4a55-8f62-8e256364c662">
+      <ID>Year</ID>
+      <Name>Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="459c7ded-5562-4488-94ea-19ddada00a73">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0f450314-9502-45a6-b174-abf0fd3f6e3a">
+            <TableID>dbo_DimDates</TableID>
+            <ColumnID>Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1e4e001b-fe42-453e-86e5-13c27e565e59">
+      <ID>City Name</ID>
+      <Name>CityName</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fc7ca8dc-022e-4841-8d5a-8d0292a4a895">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="50e8d077-bb4a-482a-b859-215bf5aeaeb6">
+            <TableID>dbo_DimCity</TableID>
+            <ColumnID>CityName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9e4452ad-5f3d-4e28-bfa5-dbb8dbdefc4a">
+      <ID>Street Name</ID>
+      <Name>StreetName</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="146cce4b-9ac0-4836-8163-092685c39403">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="28d21bed-1b88-437b-9dc0-c3fe1cd9d4f9">
+            <TableID>dbo_DimStreet</TableID>
+            <ColumnID>StreetName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="41a36dda-b35c-411b-86b7-f6fcebc37c4b">
+      <ID>Trip Number</ID>
+      <Name>TripNumber</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="10910bcb-d2ca-4bd7-951d-355e281b6501">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="204986dc-5fa5-4e68-a05b-7e4ab4e463f9">
+            <TableID>dbo_FactTrips</TableID>
+            <ColumnID>TripNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b9610163-e696-40bc-bc7a-97a4ccace0c8">
+      <ID>Car Type</ID>
+      <Name>CarType</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1feed816-c6ac-49a2-87c5-edd4730e760e">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d3478048-4ec7-48f2-985e-696704437328">
+            <TableID>dbo_DimCarType</TableID>
+            <ColumnID>CarType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="af57abf9-aeba-49b2-b005-d347077f8081">
+      <ID>Hierarchy</ID>
+      <Name>DateHierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="3b25ee69-e14f-4d22-825d-937b8bb5d8bb">
+          <ID>TripKey</ID>
+          <Name>TripKey</Name>
+          <SourceAttributeID>TripKey</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a3dd8f30-eac3-4813-94e2-70ffc7d8a9a6">
+          <ID>TripCharge</ID>
+          <Name>TripCharge</Name>
+          <SourceAttributeID>TripCharge</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5c3761ff-2916-4160-ad55-e159377c46ac">
+          <ID>Year</ID>
+          <Name>Year</Name>
+          <SourceAttributeID>Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="dfaaf065-8380-43b5-9113-0191e5f330f9">
+          <ID>Month</ID>
+          <Name>Month</Name>
+          <SourceAttributeID>Month</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e508612a-1310-4ae9-8a77-63939dc6339d">
+          <ID>Date</ID>
+          <Name>Date</Name>
+          <SourceAttributeID>Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="5a0510e7-d266-4e55-960a-4b141958ee4f">
+      <ID>Hierarchy 1</ID>
+      <Name>TripHierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="7e4fbf75-f8cc-4484-b674-0400cc6fc45c">
+          <ID>TripKey</ID>
+          <Name>TripKey</Name>
+          <SourceAttributeID>TripKey</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5419e30e-e370-4760-a064-c6c4cfc29e91">
+          <ID>TripCharge</ID>
+          <Name>TripCharge</Name>
+          <SourceAttributeID>TripCharge</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="339b53f6-8a46-4f93-87bc-00234a3105c5">
+          <ID>CarType</ID>
+          <Name>CarType</Name>
+          <SourceAttributeID>Car Type</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="9cf49ab4-03ab-4dd6-b221-cd6484da0961">
+      <ID>Hierarchy 2</ID>
+      <Name>CityStreetHierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="141b973e-3ea2-411a-9bbe-d88f20f637f7">
+          <ID>TripKey</ID>
+          <Name>TripKey</Name>
+          <SourceAttributeID>TripKey</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f4c992c3-5456-4b8e-9902-989471834983">
+          <ID>StreetName</ID>
+          <Name>StreetName</Name>
+          <SourceAttributeID>Street Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8e67aff0-fa2d-45f1-b451-88b72a9f5c1d">
+          <ID>CityName</ID>
+          <Name>CityName</Name>
+          <SourceAttributeID>City Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
